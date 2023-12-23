@@ -1,0 +1,38 @@
+<link rel="stylesheet" href="css/style_index.css">
+
+<center>
+    <form name="f" method="Post" action="login.py">
+
+        <table border="23">
+
+            <head>
+                <h1> Login Dashbord </h1>
+            </head>
+            <tr>
+                <th>
+                    <P align=left>Username
+                </th>
+                <th><input type=text placeholder="Username" name=t1></th>
+            </tr>
+            <tr>
+                <th>
+                    <P align=left>Password
+                </th>
+                <th><input type=password placeholder="Password" name=t2></th>
+            </tr>
+
+            <tr>
+                <th colspan="2">
+
+                    <input type=submit value=Login name="b1">
+                    <input type=button value="New User" onclick='op()'>
+                </th>
+            </tr>
+    </form>
+    </table>
+    <script>
+        function op() {
+            window.open("Adminlogin.html", '_self')
+        }
+    </script>
+</center>

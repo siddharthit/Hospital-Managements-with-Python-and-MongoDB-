@@ -1,0 +1,71 @@
+<link rel="stylesheet" href="css/style_menu.css">
+<center>
+    <h1> Menu List </h1>
+    <table border="22" cellpadding="18">
+        <form name="f">
+            <tr>
+                <th> <input type="button" value=Patient onclick="p()">
+                    <input type="button" value=Doctor onclick="d()">
+                    <input type="button" value=Doctor_schedule onclick="ds()">
+                    <input type="button" value=Service onclick="s()">
+                </th>
+
+            </tr>
+            <tr>
+                <th> <input type="button" value=Staff onclick="st()">
+                    <input type="button" value=Appoitment onclick="a()">
+                    <input type="button" value=Hospital onclick="h()">
+                </th>
+
+            </tr>
+            <tr>
+                <th>
+
+                    <input type="button" value=Treatment onclick="t()">
+                    <input type="button" value=Medicine onclick="m()">
+                </th>
+            </tr>
+
+
+            </tr>
+            <tr>
+                <th>
+                    <input type="button" value=Treatment_Detail onclick="td()">
+                </th>
+
+            </tr>
+        </form>
+    </table>
+    <script>
+        function p() {
+            window.open("Patient.html", '__self')
+        }
+
+        function d() {
+            window.open("Doctor.html", '__self')
+        }
+        function ds() {
+            window.open("Doctor_sch.html", '__self')
+        }
+        function st() {
+            window.open("Staff.html", '__self')
+        }
+        function a() {
+            window.open("Appointment.html", '__self')
+        }
+        function h() {
+            window.open("Hospital.html", '__self')
+        }
+        function s() {
+            window.open("Service.html", '__self')
+        }
+        function t() {
+            window.open("Treatment.html", '__self')
+        }
+        function td() {
+            window.open("Treatment_Detail.html", '__self')
+        }
+        function m() {
+            window.open("Medicine.html", '__self')
+        }
+    </script>

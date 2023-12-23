@@ -1,0 +1,59 @@
+<link rel="stylesheet" href="css/style_staff.css">
+<center>
+    <h1>Staff_detail</h1>
+    <table border="18" cellpadding="5">
+        <form name="f" method='Post' action='staff.py'>
+            <tr>
+                <th>
+                    <P align="left">Staff_id
+                </th>
+                <th><input type=text name=t1></th>
+            </tr>
+            <tr>
+                <th>
+                    <P align="left">Staff_name
+                </th>
+                <th><input type=text name=t2></th>
+            </tr>
+            <tr>
+                <th>
+                    <P align="left">Contact_no
+                </th>
+                <th><input type=text name=t3></th>
+            </tr>
+            <tr>
+                <th>
+                    <P align="left">@E_mail
+                </th>
+                <th><input type=text name=t4></th>
+            </tr>
+            <tr>
+                <th>
+                    <P align="left">Designation
+                </th>
+                <th><input type=text name=t5></th>
+            </tr>
+            <tr>
+                <th>
+                    <P align="left">Hospital_id
+                </th>
+                <th><input type=text name=t6></th>
+            </tr>
+            <tr>
+                <th colspan=2>
+                    <input type="reset" value="New">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <input type=submit value="Save" name=b1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <input type=submit value="Update" name=b1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <input type=submit value="Delete" name=b1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <input type=submit value="Allsearch" name=b1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <input type=submit value="Psearch" name=b1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <input type=button value="Menu" onclick=mm()>
+                </th>
+            </tr>
+        </form>
+    </table>
+    <script>
+        function mm() {
+            window.open("Menu.html", '__self')
+        }
+    </script>

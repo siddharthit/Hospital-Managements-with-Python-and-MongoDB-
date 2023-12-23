@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="css/style_treatment_detail.css">
+<center>
+    <h1>Treatment_Record</h1>
+    <table border="18" cellpadding='5'>
+        <form name="f" method='Post' action='Treatment.py'>
+            <tr>
+                <th>
+                    <P align="left">Treatment_id
+                </th>
+                <th><input type=text name=t1></th>
+            </tr>
+            <tr>
+                <th>
+                    <P align="left">Appointment_id
+                </th>
+                <th><input type=text name=t2></th>
+            </tr>
+            <tr>
+                <th>
+                    <P align="left">Remarks
+                </th>
+                <th><input type=text name=t3></th>
+            </tr>
+
+            <tr>
+                <th colspan=2>
+                    <input type="reset" value="New">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <input type=submit value="Save" name=b1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <input type=submit value="Update" name=b1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <input type=submit value="Delete" name=b1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <input type=submit value="Allsearch" name=b1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <input type=submit value="Psearch" name=b1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <input type=button value="Menu" onclick=mm()>
+                </th>
+            </tr>
+        </form>
+    </table>
+    <script>
+        function mm() {
+            window.open("Menu.html", '__self')
+        }
+    </script>

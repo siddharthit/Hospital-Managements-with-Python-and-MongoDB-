@@ -1,0 +1,82 @@
+<link rel="stylesheet" href="css/style_patient.css">
+<center>
+    <h1>Patient_Detail</h1>
+    <table border=18 cellpadding="5">
+        <form name='f' method='Post' action='Patient.py'>
+            <tr>
+                <th>
+                    <P align=left>Patient_id
+                </th>
+                <th> <input type="text" name=t1></th>
+            </tr>
+            <tr>
+                <th>
+                    <P align=left>Patient_name
+                </th>
+                <th> <input type="text" name=t2></th>
+            </tr>
+            <tr>
+                <th>
+                    <P align=left>Gender
+                </th>
+                <th> <input type=radio name=t3>Male
+                    <input type=radio name=t3>Female
+                </th>
+
+            </tr>
+            <tr>
+                <th>
+                    <P align=left>Nationality
+                </th>
+                <th> <input type="text" name=t4></th>
+            </tr>
+            <tr>
+                <th>
+                    <P align=left>Date_of_Birth
+                </th>
+                <th> <input type="text" name=t5></th>
+            </tr>
+            <tr>
+                <th>
+                    <P align=left>Blood_group
+                </th>
+                <th><select name=t6 onchange="b()">
+                        <option>Select_Blood_Group</option>
+                        <option>A positive (A+)</option>
+                        <option>A negative (A-)</option>
+                        <option>B positive (B+)</option>
+                        <option>B negative (B-)</option>
+                        <option>B negative (B-)</option>
+                        <option>B negative (B-)</option>
+                        <option>B negative (B-)</option>
+                        <option>AB positive (AB+)</option>
+                        <option>AB negative (AB-)</option>
+                        <option>O positive (O+)</option>
+                        <option>O negative (O-)</option>
+                    </select> </th>
+            </tr>
+            <tr>
+                <th>
+                    <P align=left>Contact_no
+                </th>
+                <th> <input type="text" name=t7></th>
+            <tr>
+                <th colspan=2>
+                    <input type="reset" value="New">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <input type=submit value="Save" name=b1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <input type=submit value="Update" name=b1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <input type=submit value="Delete" name=b1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <input type=submit value="Allsearch" name=b1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <input type=submit value="Psearch" name=b1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <input type=button value="Menu" onclick=mm()>
+                </th>
+            </tr>
+        </form>
+    </table>
+    <script>
+        function mm() 
+        {
+            window.open("Menu.html", '__self')
+        }
+    </script>
+</center>

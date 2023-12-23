@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="css/style_doctor_sch.css">
+<center>
+    <h1>Doctor_Shu_detail</h1>
+    <table border="18" >
+        <form name="f" method="post" action="Doctor_sch.py">
+            <tr>
+                <th><P align="left">Doctor_id</th>
+                <th><input type=text name=t1></th>
+            </tr>
+            <tr>
+                <th><P align="left">Start date </th>
+                    <th><input type=text name=t2></th>
+            </tr>
+            <tr>
+                <th><P align="left">End date</th>
+                <th><input type=text name=t3></th>
+            </tr>
+            <tr>
+                <th><P align="left">Start Time</th>
+                    <th><input type=text name=t4></th>
+            </tr>  
+            <tr>
+                <th><P align="left">End Time</th>
+                    <th><input type=text name=t5></th>
+            </tr>  
+            <tr>
+                <th colspan=2>
+                <input type="reset" value="New">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <input type=submit value="Save" name=b1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <input type=submit value="Update" name=b1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <input type=submit value="Delete" name=b1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <input type=submit value="Allsearch" name=b1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <input type=submit value="Psearch" name=b1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <input type=button value="Menu" onclick=mm()>
+                </th>
+                </tr>
+            </form></table>
+            <script>
+                function mm()
+                {
+                 window.open("Menu.html",'__self')
+                }
+             </script>
+                

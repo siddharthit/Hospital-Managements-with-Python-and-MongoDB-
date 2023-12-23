@@ -1,0 +1,52 @@
+<link rel="stylesheet" href="css/style_doctor.css">
+<center>
+    <h1>Doctor detail</h1>
+    <table border="18">
+        <form name="f" method="post" action="Doctor.py">
+            <tr>
+                <th><P align="left">Doctor_id</th>
+                <th><input type=text name=t1></th>
+            </tr>
+            <tr>
+                <th><P align="left">Doctor Name </th>
+                    <th><input type=text name=t2></th>
+            </tr>
+            <tr>
+                <th><P align="left">Contact_no</th>
+                <th><input type=text name=t3></th>
+            </tr>
+            <tr>
+                <th><P align="left">@E_mail</th>
+                    <th><input type=text name=t4></th>
+            </tr>    
+             <tr>
+                <th><P align="left">Specialization</th>
+                <th><input type=text name=t5></th>
+            </tr>
+            <tr>
+                <th><P align=left>Gender</th>
+                    <th> <input type=checkbox name=t6 onclick="a()">Male
+                        <input type=checkbox name =t6a onclick="a()">Female</th>
+            </tr>
+            <tr>
+                <th><P align="left">Hospital_id</th>
+                <th><input type=text name=t7></th>
+            </tr>
+            <tr>
+                <th colspan=2>
+                <input type="reset" value="New">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <input type=submit value="Save" name=b1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <input type=submit value="Update" name=b1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <input type=submit value="Delete" name=b1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <input type=submit value="Allsearch" name=b1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <input type=submit value="Psearch" name=b1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <input type=button value="Menu" onclick=mm()>
+            </th>
+            </tr>
+        </form></table>
+        <script>
+            function mm()
+            {
+             window.open("Menu.html",'__self')
+            }
+         </script>
