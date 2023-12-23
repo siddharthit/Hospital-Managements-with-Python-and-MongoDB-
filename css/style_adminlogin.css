@@ -1,0 +1,99 @@
+body{
+    background-image: url(pic/lg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+   
+    background-color: rgba(235, 240, 240, 0.61);
+    
+}
+table{
+    margin-bottom: 500;
+    height: auto;
+    width: auto;
+    border-radius: 1px;
+    border-color:#eff3f458;
+}
+input[ type=text]
+{
+    border-radius: 10px;
+    height: 25px;
+    width: 250px;
+    text-align: center;color: rgb(147, 27, 27);
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: rgb(250, 169, 19);
+   
+}
+input[type=button]
+{
+    height:auto;
+    width:auto;
+    border-radius: 12px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right, rgba(235, 24, 24, 0.947), rgb(240, 237, 149));
+    font-weight: bold;
+    cursor: pointer;
+}
+input[type=submit]
+{
+    height:auto;
+    width:auto;
+    border-radius: 12px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right, rgba(250, 19, 19, 0.947), rgb(245, 243, 183));
+    font-weight: bold;
+    cursor: pointer;
+    font-style: italic; 
+}
+select{
+    height: 30;
+    width: 30;
+    border-radius: 12px;
+    border-width: 3;
+    cursor: pointer;
+    background-color: rgba(255, 229, 127, 0.811) ;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+input[type=button]:hover 
+{
+    background-color: rgb(234, 205, 168);
+
+    
+}
+input[type=submit]:hover
+{
+    background-color: rgb(211, 234, 255);
+
+}
+select:hover
+{
+    background-color: antiquewhite;
+}
+h1{
+    background-image: linear-gradient(to right, rgba(8, 150, 232, 0.947), rgb(8, 8, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  input[type=password]
+  {
+      border-radius: 10px;
+      height: 25px;
+      width: 250px;
+      text-align: center;color: rgb(147, 27, 27);
+      font-size: large;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      border-color: rgb(250, 169, 19);
+     
+  }
+input[type=password]:hover
+{
+    background-color: rgb(211, 234, 255);
+
+}
+

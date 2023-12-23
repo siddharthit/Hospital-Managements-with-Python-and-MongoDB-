@@ -1,0 +1,116 @@
+body{
+    background-image: url(pic/1.jpg);
+    background-color: rgba(178, 206, 114, 0.555);
+    background-size: cover;
+    text-transform: capitalize;
+}
+h1{
+    background-image: linear-gradient(to right, rgb(27, 23, 243), rgb(245, 43, 12));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+table{
+    margin-bottom: 500;
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+    border-color: rgba(37, 24, 24, 0.742);
+}
+input[type=text]
+{
+    
+    border-radius: 35px;;
+    height: 30;
+    width: 300;
+    text-align: center;color: rgb(235, 14, 14);
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: rgb(231, 158, 22);
+}
+input[type=button]
+{
+    height: auto;
+    width: auto;
+    border-radius: 12px;
+    border-width: 3;
+    cursor: pointer;
+    background-color: rgb(127, 255, 212) ;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+input[type=submit]
+{
+    height: auto;
+    width: auto;
+    border-radius: 12px;
+    border-width: 3;
+    cursor: pointer;
+    background-color: aquamarine ;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+select{
+    height: auto;
+    width: auto;
+    border-radius: 12px;
+    border-width: 3;
+    cursor: pointer;
+    background-color: aquamarine ;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+input[type=button ]:hover 
+{
+    background-color: rgb(238, 236, 233);
+
+    
+}
+input[type=submit]:hover
+{
+    background-color: aliceblue;
+
+}
+.reset1
+{
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+    border-width: 3;
+    cursor: pointer;
+    background-color: aquamarine ;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+select:hover
+{
+    background-color: rgba(146, 231, 76, 0.813);
+}
+p{
+    font-family:cursive;
+    font-style:normal;
+    font-size: large;
+    color: rgb(0, 3, 2);
+}
+input[type=reset]
+{
+    height: auto;
+    width: auto;
+    border-radius: 12px;
+    border-width: 3;
+    cursor: pointer;
+    background-color: aquamarine ;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif; 
+}
+input[type=reset]:hover
+{
+    background-color: rgb(238, 236, 233);
+}
